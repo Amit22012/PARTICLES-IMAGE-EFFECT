@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#canvas1{
+    background-color: black;
+    position: absolute;
+   
+}
+.controls{
+    position: absolute;
+    z-index: 100;
+}
+img{
+    display: none;
+    
+}
+button{
+    padding: 20px;
+    margin: 20px;
+    font-size: 50px;
+    border-radius: 19px;
+    width: 140px;
+    height: 90px;
+    font-family: 'Bangers', cursive;
+    color: white;
+    background: black;
+    transition: 0.2s;
+    }
+button:hover{
+    color: black;
+    background-color: white;
+}
